@@ -13,7 +13,4 @@ bidders = {
     "Paul" : 62
 }
 
-highBid = max(bidders, key=bidders.get)
-print(highBid)
-
-
+# highBid = max(bidders, key=bidders.get)
