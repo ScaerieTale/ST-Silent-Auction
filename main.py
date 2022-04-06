@@ -13,4 +13,7 @@ bidders = {
     "Paul" : 62
 }
 
-# highBid = max(bidders, key=bidders.get)
+# highBid = max(bidders, key=bidders.get)]
+highBidder = ""
+for bidder in bidders:
+    print(bidder)
