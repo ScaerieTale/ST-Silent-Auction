@@ -15,5 +15,11 @@ bidders = {
 
 # highBid = max(bidders, key=bidders.get)]
 highBidder = ""
+highBid = 0
 for bidder in bidders:
-    print(bidder)
+    bid = bidders[bidder]
+    if highBid < bid:
+        highBid = bid
+        highBidder = bidder
+print(f"{highBidder} wins with a bid of ${highBid}!")
+    
