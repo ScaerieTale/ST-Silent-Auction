@@ -7,9 +7,13 @@
 #   bidAmt = input("Please enter your bid amount: $")
 
 bidders = {
-    "Jay" : "10",
-    "Steve" : "35",
-    "Linus" : "176",
-    "Paul" : "62"
-
+    "Jay" : 10,
+    "Steve" : 35,
+    "Linus" : 176,
+    "Paul" : 62
 }
+
+highBid = max(bidders, key=bidders.get)
+print(highBid)
+
+
